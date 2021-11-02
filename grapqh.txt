@@ -1,0 +1,5 @@
+Name: together-gnu-23 -> x-hasura-admin-secret
+
+Admin Secret: Wm7fiLI06jHwQsJldmNYDInsbPEfkp6eBQbuJlrfRIzc6tpKMxr7EwtYZqdyq2gc
+
+GraphQL API: https://together-gnu-23.hasura.app/v1/graphql

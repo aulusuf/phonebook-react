@@ -1,0 +1,18 @@
+Beberapa waktu yang lalu kita telah membuat sebuah website yang berisi tentang daftar kontak menggunakan Express.js + PostgreSQL pada dokumen ini. Kali ini kita coba untuk migrasi dari menggunakan RESTful API menjadi GraphQL dengan memakai Hasura Server.
+
+Syarat dan Ketentuan:
+1 tim terdiri dari 2 orang.
+
+Gunakan Reusable Component, Hooks, dan Functional Component.
+
+Selain Create, Read, Update, dan Delete, tambahkan juga fitur Search berdasarkan text yang di-input-kan.
+
+Buat beberapa halaman/page seperti Home, Detail Kontak, Create Kontak, Update Kontak, dan halaman About yang memuat profil anggota tim.
+
+Tambahkan juga beberapa parameter seperti First Name, Last Name, Address, City, Phone Number, dsb. Selain itu, berikan juga validasi untuk text input pada saat Create dan Update agar tidak bisa kosong saat di-submit.
+
+Dipersilahkan untuk menggunakan 3rd party library seperti React Bootstrap dll agar memberikan kesan estetik pada beberapa component, estetik bernilai plus.
+
+Maksimalkan team collaboration agar mempermudah dalam mengerjakan group project.
+
+Keep it simple, reuse existing
