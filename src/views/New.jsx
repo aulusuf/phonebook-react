@@ -24,7 +24,7 @@ function New(props) {
 	const [addContact] = useMutation(ADD_CONTACT);
 	const history = useHistory();
 
-	const handleSubmit = async (event) => {
+	const handleSubmit = async () => {
 		setDoneLoading(true);
 		addContact({ variables: { name, phone, email, address } });
 		setName("");

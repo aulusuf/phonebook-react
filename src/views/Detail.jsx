@@ -23,12 +23,12 @@ export default function Detail(props) {
 			optimisticResponse: true,
 			update: (cache) => {
 				const loadContacts = cache.readQuery({ query: GET_CONTACT });
-				const contactData = loadContacts.contacts.filter(
+				const contact = loadContacts.contacts.filter(
 					(contact) => contact.id !== id
 				);
 				cache.writeQuery({
 					query: GET_CONTACT,
-					data: { contactData },
+					data: { contact },
 				});
 			},
 		});
@@ -52,7 +52,7 @@ export default function Detail(props) {
 					<Link to="/">Back to Home</Link>
 					<button
 						className="btn btn-danger"
-						onClick={() => removeContact(contact.id)}
+						onClick={((e) => e.preventDefault(), removeContact(contact.id))}
 					>
 						Hapus
 					</button>

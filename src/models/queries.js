@@ -47,8 +47,8 @@ export const GET_CONTACT_BY_ID = gql`
 `;
 export const REMOVE_CONTACT = gql`
 	mutation ($id: Int!) {
-		delete_contacts_by_pk(id: $id) {
-			id
+		delete_contacts(where: { id: { _eq: $id } }) {
+			affected_rows
 		}
 	}
 `;
