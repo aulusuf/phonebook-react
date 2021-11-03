@@ -1,3 +1,5 @@
+//coba sweet alert.github.io
+
 import React from "react";
 import Home from "./views/Home";
 import New from "./views/New";
@@ -7,6 +9,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { ApolloClient, ApolloProvider, InMemoryCache } from "@apollo/client";
+import "./App.css";
 
 function App() {
 	const client = new ApolloClient({
@@ -20,7 +23,7 @@ function App() {
 		<BrowserRouter>
 			<ApolloProvider client={client}>
 				<Navbar />
-				<div class="body">
+				<div className="body">
 					<Switch>
 						<Route path="/" exact component={Home} />
 						<Route path="/new" component={New} />

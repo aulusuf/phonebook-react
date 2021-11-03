@@ -55,7 +55,7 @@ footer {
 	min-height: 50px;
 }
 
-#contact-card {
+.contact-card {
 	background-color: rgb(255, 190, 111);
 	border-radius: 10px;
 	text-decoration: none;
@@ -64,7 +64,7 @@ footer {
 	align-content: flex-start;
 	/* width: 18rem; */
 }
-#contact-card:hover {
+.contact-card:hover {
 	background-color: rgb(255, 228, 196);
 }
 
