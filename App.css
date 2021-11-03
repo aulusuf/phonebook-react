@@ -1,0 +1,88 @@
+.App {
+	text-align: center;
+}
+
+.App-logo {
+	height: 40vmin;
+	pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+#about-us {
+	color: #282c34;
+}
+#about-us:hover {
+	color: dodgerblue;
+}
+
+.body {
+	height: 100vh;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+footer {
+	margin-top: auto;
+	min-height: 50px;
+}
+
+#contact-card {
+	background-color: rgb(255, 190, 111);
+	border-radius: 10px;
+	text-decoration: none;
+	color: #282c34;
+	height: auto;
+	align-content: flex-start;
+	/* width: 18rem; */
+}
+#contact-card:hover {
+	background-color: rgb(255, 228, 196);
+}
+
+#contact-name {
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 0.1rem;
+}
+#contact-info {
+	opacity: 60%;
+	margin-bottom: 0.5rem;
+}
+
+#cancel-new:hover {
+	background-color: dimgray;
+	color: white;
+}
+#contact-card img {
+	height: 86px;
+	width: auto;
+}
